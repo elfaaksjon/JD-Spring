@@ -4,18 +4,19 @@ import com.cybertek.interfaces.Course;
 import com.cybertek.interfaces.ExtraSessions;
 
 public class Java  implements Course {
+ private OfficeHourse officeHourse;
 
-    //OfficeHourse officeHourse;
+    public OfficeHourse getOfficeHourse() {
+        return officeHourse;
+    }
 
-    ExtraSessions extraSessions;
-
-    public Java(ExtraSessions extraSessions) {
-        this.extraSessions = extraSessions;
+    public void setOfficeHourse(OfficeHourse officeHourse) {
+        this.officeHourse = officeHourse;
     }
 
     public void getTeachingHours() {
 
-        System.out.println("Weekly Teaching Hours : " + (20+extraSessions.getHours())  );
+        System.out.println("Weekly Teaching Hours : " + (20+officeHourse.getHours())  );
 
     }
 }
