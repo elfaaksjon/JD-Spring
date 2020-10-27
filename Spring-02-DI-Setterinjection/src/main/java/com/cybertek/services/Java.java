@@ -10,7 +10,7 @@ public class Java  implements Course {
         return officeHourse;
     }
 
-    public void setOfficeHourse(OfficeHourse officeHourse) {
+    public void setOfficeHourse(OfficeHourse officeHourse) {//set + officHours
         this.officeHourse = officeHourse;
     }
 

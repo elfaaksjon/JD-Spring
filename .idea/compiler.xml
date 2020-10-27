@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="Spring-05-JavaAnnotations-Autowired" />
+        <module name="Spring-01-SpringContainer" />
+        <module name="Spring-03-BeanScope-SingTon-Prototype" />
+        <module name="Spring-02-DI-Setterinjection" />
+        <module name="Spring-05-javaAnnotation-component" />
+        <module name="Spring-02-DI-ConstructorInjection" />
+        <module name="Spring-05-JavaAnnotations-Qualifier" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="JD-Spring-Spring-05-JavaAnnotations+Conponent" target="1.8" />
+      <module name="Spring-01-SpringContainer" target="1.8" />
+      <module name="Spring-02-DI-ConstructorInjection" target="1.8" />
+      <module name="Spring-02-DI-Setterinjection" target="1.8" />
+      <module name="Spring-03-BeanScope-SingTon-Prototype" target="1.8" />
+      <module name="Spring-05-javaAnnotation-component" target="1.8" />
+      <module name="Spring-05-JavaAnnotations-Autowired" target="1.8" />
+      <module name="Spring-05-JavaAnnotations-Qualifier" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
